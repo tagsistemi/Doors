@@ -1,0 +1,18 @@
+﻿CREATE TABLE "TAG_DOORS_POLINTELADETAIL" (
+    "ITEM" VARCHAR2 (21) NOT NULL,
+    "DISTINTA" VARCHAR2 (21) NOT NULL,
+    "HDA" FLOAT (126) NOT NULL,
+    "HA" FLOAT (126) NOT NULL,
+    "LDA" FLOAT (126) NOT NULL,
+    "LA" FLOAT (126) NOT NULL,
+    CONSTRAINT "PK_TAG_DOORS_POLINTELADETAIL" PRIMARY KEY
+    (
+        "ITEM",
+        "DISTINTA",
+        "HDA",
+        "HA",
+        "LDA",
+        "LA"
+    )
+)
+GO

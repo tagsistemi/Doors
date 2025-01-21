@@ -1,0 +1,71 @@
+<AppMenu>
+  <Application name="Doors" owner="Doors,Doors">
+    <Group name="Doors" owner="Doors,Doors">
+      <Menu name="Gestione produzione porte" owner="Doors,Doors">
+        <Menu name="Gestione produzione porte.Menu1" owner="Doors,Doors">
+          <Batch owner="Doors,Doors" sub_type="Standard">
+            <Title localizable="True">Importa Clienti e Fornitori</Title>
+            <Object>Doors.Doors.DynamicDocuments.ImportCustSupp</Object>
+          </Batch>
+          <Title localizable="True">Strumenti</Title>
+        </Menu>
+        <Menu name="Tabelle di base" owner="Doors,Doors">
+          <Document owner="Doors,Doors">
+            <Title localizable="True">Tabelle Vetri</Title>
+            <Object>Doors.Doors.DynamicDocuments.TabelleVetri</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="True">Gruppi Finitura</Title>
+            <Object>Doors.Doors.DynamicDocuments.GruppiFiniture</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="True">Tabelle Larghezze Pannello</Title>
+            <Object>Doors.Doors.DynamicDocuments.TabelleLarghezzePannello</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Aperture</Title>
+            <Object>Doors.Doors.DynamicDocuments.Aperture</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Parametri</Title>
+            <Object>Doors.Doors.DynamicDocuments.Parametri</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Finiture</Title>
+            <Object>Doors.Doors.DynamicDocuments.Finiture</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Battute</Title>
+            <Object>Doors.Doors.DynamicDocuments.Battute</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Tipi Telaio</Title>
+            <Object>Doors.Doors.DynamicDocuments.TipiTelaio</Object>
+          </Document>
+        </Menu>
+        <Menu name="Documenti" owner="Doors,Doors">
+          <Batch sub_type="Standard" owner="Doors,Doors">
+            <Title localizable="True">Duplica Tabella Maggiorazioni</Title>
+            <Object>Doors.Doors.DynamicDocuments.DuplicaTabellaMaggiorazioni</Object>
+          </Batch>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Maggiorazioni</Title>
+            <Object>Doors.Doors.DynamicDocuments.Maggiorazioni</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Configurazioni</Title>
+            <Object>Doors.Doors.DynamicDocuments.Configurazioni</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Politca Telai</Title>
+            <Object>Doors.Doors.DynamicDocuments.PoliticaTelai</Object>
+          </Document>
+          <Document owner="Doors,Doors">
+            <Title localizable="true">Politica Profili Inteleiato</Title>
+            <Object>Doors.Doors.DynamicDocuments.PoliticaProfiliInteleiato</Object>
+          </Document>
+        </Menu>
+      </Menu>
+    </Group>
+  </Application>
+</AppMenu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocumentObjects>
+  <Documents>
+    <Document namespace="Doors.Doors.DynamicDocuments.Parametri" localize="Parametri" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.Configurazioni" localize="Configurazioni" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.Maggiorazioni" localize="Maggiorazioni" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.Finiture" localize="Finiture" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.Battute" localize="Battute" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.Aperture" localize="Aperture" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.TipiTelaio" localize="TipiTelaio" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.PoliticaTelai" localize="PoliticaTelai" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.DuplicaTabellaMaggiorazioni" localize="DuplicaTabellaMaggiorazioni" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="batch" schedulable="true" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.TabelleLarghezzePannello" localize="TabelleLarghezzePannello" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.GruppiFiniture" localize="GruppiFiniture" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.PoliticaProfiliInteleiato" localize="PoliticaProfiliInteleiato" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.TabelleVetri" localize="TabelleVetri" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="Default" type="dataentry" schedulable="false" />
+      </ViewModes>
+    </Document>
+    <Document namespace="Doors.Doors.DynamicDocuments.ImportCustSupp" localize="Import Customers Supplliers" classhierarchy="" defaultsecurityroles="" dynamic="true">
+      <ViewModes>
+        <Mode name="Default" localize="" type="batch" schedulable="true" />
+      </ViewModes>
+    </Document>
+  </Documents>
+</DocumentObjects>

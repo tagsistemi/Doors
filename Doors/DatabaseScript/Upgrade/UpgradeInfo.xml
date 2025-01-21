@@ -1,0 +1,342 @@
+<UpgradeInfo>
+  <DBRel numrel="2">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_ItemsAddOn.sql" />
+      <Step numstep="2" script="TAG_DOORS_ModelliConf.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="3">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="4">
+    <Level1>
+      <Step numstep="1" script="TestaMiscele.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="5">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="6">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="7">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_Configurazioni.sql" />
+      <Step numstep="2" script="TAG_DOORS_ConfigurazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="8">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_ConfigurazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="9">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="10">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="11">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Configurazioni.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="12">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Configurazioni.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="13">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="14">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="15">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Configurazioni.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="16">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_ConfigurazioniVar.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="17">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_ConfigurazioniVar.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="18">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="19">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_ConfigurazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="20">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_Maggiorazioni.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="21">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_MaggiorazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="22">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_MaggiorazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="23">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_MaggiorazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="24">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_MaggiorazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="25">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="26">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_Finiture.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="27">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_Battute.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="28">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="29">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="30">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_ConfigurazioniDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="31">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="32">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="34">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="35">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+      <Step numstep="2" script="TAG_DOORS_TipiTelaio.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="37">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="38">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_PolTelai.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="39">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_PolTelaioDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="40">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="41">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="43">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="45">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="46">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="47">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="48">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_PolTelaioDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="49">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_TabellaPannelliR.sql" />
+      <Step numstep="2" script="TAG_DOORS_TabellaPannelliTesta.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="50">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_TabellaPannelliR.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="51">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Finiture.sql" />
+      <Step numstep="2" script="TAG_DOORS_GruppiFiniture.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="52">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_TabellaPannelliAp.sql" />
+      <Step numstep="2" script="Alter_TAG_DOORS_TabellaPannelliR.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="53">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_PolTelaioDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="54">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="55">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_PolIntela.sql" />
+      <Step numstep="2" script="TAG_DOORS_PolIntelaDetail.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="56">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_PolIntela.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="57">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_ParamsIn.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="58">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Params.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="59">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_ConfigVetri.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="60">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="61">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_TabellaVetri.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="62">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_TabbellaVetriR.sql" />
+      <Step numstep="2" script="TAG_DOORS_TabellaVetriR.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="63">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_TabellaVetriR.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="64">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="65">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Configurazioni.sql" />
+      <Step numstep="2" script="Alter_MA_SaleOrdDetails.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="66">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_SaleOrdDetails.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="67">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Maggiorazioni.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="69">
+    <Level1>
+      <Step numstep="1" script="TAG_DOORS_ConfigMagg.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="70">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_SaleOrdDetails.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="71">
+    <Level1>
+      <Step numstep="1" script="Alter_TAG_DOORS_Maggiorazioni.sql" />
+    </Level1>
+  </DBRel>
+  <DBRel numrel="72">
+    <Level1>
+      <Step numstep="1" script="Alter_MA_Items.sql" />
+    </Level1>
+  </DBRel>
+  <ModuleInfo name="Doors" />
+</UpgradeInfo>

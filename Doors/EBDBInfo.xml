@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DBScriptInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NewTables />
+  <NewAddOnFields />
+  <DatabaseRelease>73</DatabaseRelease>
+  <OnlyMyItems>false</OnlyMyItems>
+</DBScriptInfo>

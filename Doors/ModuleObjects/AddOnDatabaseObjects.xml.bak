@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AddOnDatabaseObjects>
+  <AdditionalColumns>
+    <Table namespace="erp.items.dbl.MA_Items">
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="3" createstep="28">
+        <Columns>
+          <Column name="DoorsApertura" localize="DoorsApertura" lenght="12" type="string" defaultvalue="" release="3" />
+          <Column name="DoorsNote" localize="DoorsNote" lenght="50" type="string" defaultvalue="" release="3" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="10" createstep="28">
+        <Columns>
+          <Column name="DoorsLarghezza" localize="DoorsLarghezza" type="double" defaultvalue="0.000000000000000" release="10" />
+          <Column name="DoorsAltezza" localize="DoorsAltezza" type="double" defaultvalue="0.000000000000000" release="10" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="28" createstep="28">
+        <Columns>
+          <Column name="DoorsFinitura" localize="DoorsFinitura" lenght="8" type="string" defaultvalue="" release="28" />
+          <Column name="DoorsBattuta" localize="DoorsBattuta" lenght="8" type="string" defaultvalue="" release="28" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="37" createstep="28">
+        <Columns>
+          <Column name="DoorsTipoTelaio" localize="DoorsTipoTelaio" lenght="8" type="string" defaultvalue="" release="37" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="41" createstep="28">
+        <Columns>
+          <Column name="DoorsSpessore" localize="DoorsSpessore" type="double" defaultvalue="0.000000000000000" release="41" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="43" createstep="28">
+        <Columns>
+          <Column name="DoorsLarghezzaIntBatt" localize="DoorsLarghezzaIntBatt" type="double" defaultvalue="0.000000000000000" release="43" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="45" createstep="28">
+        <Columns>
+          <Column name="DoorsAltezzaIntBatt" localize="DoorsAltezzaIntBatt" type="double" defaultvalue="0.000000000000000" release="45" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="46" createstep="28">
+        <Columns>
+          <Column name="DoorsAriaL" localize="DoorsAriaL" type="double" defaultvalue="0.000000000000000" release="46" />
+          <Column name="DoorsAriaH" localize="DoorsAriaH" type="double" defaultvalue="0.000000000000000" release="46" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="47" createstep="28">
+        <Columns>
+          <Column name="DoorsSpProfIntTelaio" localize="DoorsSpProfIntTelaio" type="double" defaultvalue="0.000000000000000" release="47" />
+          <Column name="DoorsSpProfEstTelaio" localize="DoorsSpProfEstTelaio" type="double" defaultvalue="0.000000000000000" release="47" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="60" createstep="28">
+        <Columns>
+          <Column name="HVetro" localize="HVetro" type="double" defaultvalue="0.000000000000000" release="60" />
+          <Column name="LVetro" localize="LVetro" type="double" defaultvalue="0.000000000000000" release="60" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="64" createstep="28">
+        <Columns>
+          <Column name="DoorsLNominale" localize="DoorsLNominale" type="double" defaultvalue="0.000000000000000" release="64" />
+          <Column name="DoorsHNominale" localize="DoorsHNominale" type="double" defaultvalue="0.000000000000000" release="64" />
+          <Column name="DoorsPNominale" localize="DoorsPNominale" type="double" defaultvalue="0.000000000000000" release="64" />
+        </Columns>
+      </AlterTable>
+    </Table>
+    <Table namespace="erp.saleorders.dbl.MA_SaleOrdDetails">
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="65" createstep="29">
+        <Columns>
+          <Column name="DoorsVerso" localize="DoorsVerso" lenght="21" type="string" defaultvalue="" release="65" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="66" createstep="29">
+        <Columns>
+          <Column name="DoorsLarghezza" localize="DoorsLarghezza" type="double" defaultvalue="0.000000000000000" release="66" />
+          <Column name="DoorsAltezza" localize="DoorsAltezza" type="double" defaultvalue="0.000000000000000" release="66" />
+          <Column name="DoorsSpMuro" localize="DoorsSpMuro" type="double" defaultvalue="0.000000000000000" release="66" />
+        </Columns>
+      </AlterTable>
+      <AlterTable namespace="Doors.Doors.DynamicDocuments" release="70" createstep="29">
+        <Columns>
+          <Column name="DoorsPrezzoBase" localize="DoorsPrezzoBase" type="money" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsSC1PB" localize="DoorsSC1PB" type="percent" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsSC2PB" localize="DoorsSC2PB" type="percent" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsSC3PB" localize="DoorsSC3PB" type="percent" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsMaggiorazione" localize="DoorsMaggiorazione" type="money" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsSC1Magg" localize="DoorsSC1Magg" type="percent" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsSC2Magg" localize="DoorsSC2Magg" type="percent" defaultvalue="0.000000000000000" release="70" />
+          <Column name="DoorsSC3Magg" localize="DoorsSC3Magg" type="percent" defaultvalue="0.000000000000000" release="70" />
+        </Columns>
+      </AlterTable>
+    </Table>
+  </AdditionalColumns>
+</AddOnDatabaseObjects>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Enums>
+  <Tag name="TipoMaggiorazione" value="15204">
+    <Item name="Dimensioni" value="0" stored="996409344">Dimensioni</Item>
+    <Item name="TipoApertura" value="1" stored="996409345">Tipo Apertura</Item>
+    <Item name="Articolo" value="2" stored="996409346">Articolo</Item>
+  </Tag>
+  <Tag name="Dimensioni" value="23553">
+    <Item name="Larghezza" value="0" stored="1543569408">Larghezza</Item>
+    <Item name="Altezza" value="1" stored="1543569409">Altezza</Item>
+    <Item name="Prodondita" value="2" stored="1543569410">Profondita</Item>
+  </Tag>
+  <Tag name="TDEnumTipoVetro" value="23064">Tag Doors Tipo Vetro<Item name="Liscio" value="0" stored="1511522304">Liscio</Item><Item name="Satinato" value="1" stored="1511522305">Satinato</Item><Item name="Opaco" value="2" stored="1511522306">Opaco</Item></Tag>
+  <Tag name="NewEnumTag0" value="26581">NewEnumTag0<Item name="NewEnumItem0" value="0" stored="1742012416">NewEnumItem0</Item></Tag>
+</Enums>

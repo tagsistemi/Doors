@@ -1,0 +1,16 @@
+﻿Release 1
+Properties
+	Begin
+		OrderFindField False
+		Desc False
+		TabSelector True
+	End
+Objects
+	Begin
+		Body "Grid.Doors.Doors.DynamicDocuments.Configurazioni.Dynamic.MTileManager.MTileGroupRigheconf.MTileDialog.DBTDOORSConfigurazioniDetail" "" 
+			Begin
+				Column "GridColumn.Doors.Doors.DynamicDocuments.Configurazioni.Dynamic.MTileManager.MTileGroupRigheconf.MTileDialog.DBTDOORSConfigurazioniDetail.Note" "Note" Type String  Size 51 Localize "it-IT" 
+				Column "GridColumn.Doors.Doors.DynamicDocuments.Configurazioni.Dynamic.MTileManager.MTileGroupRigheconf.MTileDialog.DBTDOORSConfigurazioniDetail.NoteOperazione" "NoteOperazione" Type String  Size 202 Localize "it-IT" 
+				Column "GridColumn.Doors.Doors.DynamicDocuments.Configurazioni.Dynamic.MTileManager.MTileGroupRigheconf.MTileDialog.DBTDOORSConfigurazioniDetail.NoteComponente" "NoteComponente" Type String  Size 191 Localize "it-IT" 
+			End
+	End

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HotKeyLink>
+	<Function namespace="HotKeyLink.Doors.Doors.DynamicDocuments.DOORSAperture" published="true" localize="HotKeyLink.Doors.Doors.DynamicDocuments.DOORSAperture" type="string"></Function>
+	<DbTable name="TAG_DOORS_Aperture"></DbTable>
+	<DbField name="TAG_DOORS_Aperture.CodiceAp"></DbField>
+	<DbFieldDescription name="TAG_DOORS_Aperture."></DbFieldDescription>
+	<CallLink namespace="Document.Doors.Doors.DynamicDocuments.Aperture" addOnFlyEnabled="true" mustExistData="true" browseEnabled="true"></CallLink>
+	<SelectionModes>
+		<Mode name="Direct" type="query"><![CDATA[SELECT { Columns TAG_DOORS_Aperture} FROM TAG_DOORS_Aperture WHERE CodiceAp  LIKE { IN  hkl_Value } ]]></Mode>
+		<Mode name="Upper" type="query"><![CDATA[SELECT { Columns TAG_DOORS_Aperture} FROM TAG_DOORS_Aperture WHERE CodiceAp  LIKE { IN  hkl_Value }  ORDER BY CodiceAp]]></Mode>
+		<Mode name="Combo" type="query"><![CDATA[SELECT { Columns TAG_DOORS_Aperture} FROM TAG_DOORS_Aperture WHERE CodiceAp  LIKE { IN  hkl_Value }  ORDER BY CodiceAp]]></Mode>
+		<Mode name="WebCombo" type="query"><![CDATA[SELECT { Columns TAG_DOORS_Aperture} FROM TAG_DOORS_Aperture WHERE CodiceAp  LIKE { IN  hkl_Value }  ORDER BY CodiceAp]]></Mode>
+	</SelectionModes>
+	<SelectionTypes>
+		<Selection name="Direct" type="Direct" localize="Cerca per chiave"></Selection>
+		<Selection name="Upper" type="Upper" localize="Cerca per chiave"></Selection>
+		<Selection name="Lower" type="Lower" localize="Cerca per descrizione"></Selection>
+		<Selection name="Combo" type="Combo" localize="Cerca per chiave"></Selection>
+		<Selection name="WebCombo" type="default" localize="Cerca per chiave"></Selection>
+	</SelectionTypes>
+</HotKeyLink>

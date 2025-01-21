@@ -1,0 +1,17 @@
+﻿Release 1
+Properties
+	Begin
+		OrderFindField False
+		Desc False
+		TabSelector True
+	End
+Objects
+	Begin
+		Body "Grid.Doors.Doors.DynamicDocuments.TabelleLarghezzePannello.Dynamic.MTileGroup1.MTileDialog1.DBTDOORSTabellaPannelliR" "" 
+			Begin
+				Column "GridColumn.Doors.Doors.DynamicDocuments.TabelleLarghezzePannello.Dynamic.MTileGroup1.MTileDialog1.DBTDOORSTabellaPannelliR.DaCm" "DaCm" Type String  Size 198 Localize "it-IT" 
+				Column "GridColumn.Doors.Doors.DynamicDocuments.TabelleLarghezzePannello.Dynamic.MTileGroup1.MTileDialog1.DBTDOORSTabellaPannelliR.ACm" "ACm" Type String  Size 188 Localize "it-IT" 
+				Column "GridColumn.Doors.Doors.DynamicDocuments.TabelleLarghezzePannello.Dynamic.MTileGroup1.MTileDialog1.DBTDOORSTabellaPannelliR.CmInternoBattutaPannello" "CmInternoBattutaPannello" Type String  Size 231 Localize "it-IT" 
+				Column "GridColumn.Doors.Doors.DynamicDocuments.TabelleLarghezzePannello.Dynamic.MTileGroup1.MTileDialog1.DBTDOORSTabellaPannelliR.Dimensione" "Dimensione" Type String  Size 127 Localize "it-IT" 
+			End
+	End

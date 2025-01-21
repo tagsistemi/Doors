@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DatabaseObjects>
+  <Signature>Doors</Signature>
+  <Release>71</Release>
+  <Tables>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_Aperture" dynamic="true" mastertable="true">
+      <Create release="1" createstep="1" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="1" />
+        <Column name="CodiceAp" localize="CodiceAp" lenght="12" type="string" defaultvalue="" release="1" />
+        <Column name="Descrizione" localize="Descrizione" lenght="50" type="string" defaultvalue="" release="1" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_Battute" dynamic="true" mastertable="true">
+      <Create release="27" createstep="2" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="27" />
+        <Column name="Codice" localize="Codice" lenght="8" type="string" defaultvalue="" release="27" />
+        <Column name="Descrizione" localize="Descrizione" lenght="64" type="string" defaultvalue="" release="27" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ConfigMagg" dynamic="true">
+      <Create release="69" createstep="3" />
+      <Columns>
+        <Column name="IdGuid" localize="IdGuid" lenght="50" type="string" defaultvalue="" release="69" />
+        <Column name="Line" localize="Line" type="integer" defaultvalue="0" release="69" />
+        <Column name="SubCtgProd" localize="SubCtgProd" lenght="8" type="string" defaultvalue="" release="69" />
+        <Column name="RigaMagg" localize="RigaMagg" type="integer" defaultvalue="0" release="69" />
+        <Column name="Customer" localize="Customer" lenght="12" type="string" defaultvalue="" release="69" />
+        <Column name="CtgProd" localize="CtgProd" lenght="8" type="string" defaultvalue="" release="69" />
+        <Column name="TipoMaggiorazione" localize="TipoMaggiorazione" type="enum" basetype="15204" defaultvalue="996409344" release="69" />
+        <Column name="OltreStandard" localize="OltreStandard" type="double" defaultvalue="0.000000000000000" release="69" />
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="69" />
+        <Column name="Importo" localize="Importo" type="money" defaultvalue="0.000000000000000" release="69" />
+        <Column name="Dimensione" localize="Dimensione" type="enum" basetype="23553" defaultvalue="1543569408" release="69" />
+        <Column name="Descrizione" localize="Descrizione" lenght="64" type="string" defaultvalue="" release="69" />
+        <Column name="DaDim" localize="DaDim" type="double" defaultvalue="0.000000000000000" release="69" />
+        <Column name="ADim" localize="ADim" type="money" defaultvalue="0.000000000000000" release="69" />
+        <Column name="Apertura" localize="Apertura" lenght="12" type="string" defaultvalue="" release="69" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_Configurazioni" dynamic="true" mastertable="true">
+      <Create release="7" createstep="4" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="7" />
+        <Column name="IdGuid" localize="IdGuid" lenght="50" type="string" defaultvalue="" release="7" />
+        <Column name="SaleOrdId" localize="SaleOrdId" type="long" defaultvalue="0" release="7" />
+        <Column name="PositionSaleOrd" localize="PositionSaleOrd" type="integer" defaultvalue="0" release="7" />
+        <Column name="LineSaleOrd" localize="LineSaleOrd" type="integer" defaultvalue="0" release="7" />
+        <Column name="Larghezza" localize="Larghezza" type="double" defaultvalue="0.000000000000000" release="11" />
+        <Column name="Altezza" localize="Altezza" type="double" defaultvalue="0.000000000000000" release="11" />
+        <Column name="SpessoreMuro" localize="SpessoreMuro" type="double" defaultvalue="0.000000000000000" release="11" />
+        <Column name="SpessoreTelaio" localize="SpessoreTelaio" type="double" defaultvalue="0.000000000000000" release="11" />
+        <Column name="NoteConfText" localize="NoteConfText" lenght="2147483647" type="text" defaultvalue="" release="11" />
+        <Column name="RootItem" localize="RootItem" lenght="21" type="string" defaultvalue="" release="12" />
+        <Column name="VarianteRoot" localize="VarianteRoot" lenght="21" type="string" defaultvalue="" release="15" />
+        <Column name="VarianteStandard" localize="VarianteStandard" lenght="1" type="bool" defaultvalue="false" release="15" />
+        <Column name="DescRootVar" localize="DescRootVar" lenght="250" type="string" defaultvalue="" release="15" />
+        <Column name="LIntBattuta" localize="LIntBattuta" type="double" defaultvalue="0.000000000000000" release="65" />
+        <Column name="HIntBattuta" localize="HIntBattuta" type="double" defaultvalue="0.000000000000000" release="65" />
+        <Column name="AriaH" localize="AriaH" type="double" defaultvalue="0.000000000000000" release="65" />
+        <Column name="AriaL" localize="AriaL" type="double" defaultvalue="0.000000000000000" release="65" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ConfigurazioniDetail" dynamic="true">
+      <Create release="7" createstep="5" />
+      <Columns>
+        <Column name="IdGuid" localize="IdGuid" lenght="50" type="string" defaultvalue="" release="7" />
+        <Column name="Line" localize="Line" type="integer" defaultvalue="0" release="7" />
+        <Column name="Component" localize="Component" lenght="21" type="string" defaultvalue="" release="7" />
+        <Column name="ComponentDescription" localize="ComponentDescription" lenght="128" type="string" defaultvalue="" release="7" />
+        <Column name="IsRtgStep" localize="IsRtgStep" lenght="1" type="bool" defaultvalue="false" release="7" />
+        <Column name="Qty" localize="Qty" type="quantity" defaultvalue="0.000000000000000" release="7" />
+        <Column name="BOMLevel" localize="BOMLevel" type="integer" defaultvalue="0" release="7" />
+        <Column name="ParentBOM" localize="ParentBOM" lenght="21" type="string" defaultvalue="" release="7" />
+        <Column name="BOM" localize="BOM" lenght="21" type="string" defaultvalue="" release="7" />
+        <Column name="BreakingBOM" localize="BreakingBOM" lenght="21" type="string" defaultvalue="" release="7" />
+        <Column name="BreakingItem" localize="BreakingItem" lenght="21" type="string" defaultvalue="" release="7" />
+        <Column name="IsABOM" localize="IsABOM" lenght="1" type="bool" defaultvalue="false" release="7" />
+        <Column name="Note" localize="Note" lenght="250" type="string" defaultvalue="" release="7" />
+        <Column name="ExplosionLine" localize="ExplosionLine" type="integer" defaultvalue="0" release="8" />
+        <Column name="NoteOperazione" localize="NoteOperazione" lenght="254" type="string" defaultvalue="" release="19" />
+        <Column name="NoteComponente" localize="NoteComponente" lenght="64" type="string" defaultvalue="" release="19" />
+        <Column name="Fase" localize="Fase" type="integer" defaultvalue="0" release="30" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ConfigurazioniVar" dynamic="true">
+      <Create release="16" createstep="6" />
+      <Columns>
+        <Column name="Line" localize="Line" type="integer" defaultvalue="0" release="16" />
+        <Column name="IdGuid" localize="IdGuid" lenght="50" type="string" defaultvalue="" release="16" />
+        <Column name="CodVariante" localize="CodVariante" lenght="21" type="string" defaultvalue="" release="16" />
+        <Column name="Bom" localize="Bom" lenght="21" type="string" defaultvalue="" release="17" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ConfigVetri" dynamic="true">
+      <Create release="59" createstep="7" />
+      <Columns>
+        <Column name="IdGuid" localize="IdGuid" lenght="50" type="string" defaultvalue="" release="59" />
+        <Column name="Line" localize="Line" type="integer" defaultvalue="0" release="59" />
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="59" />
+        <Column name="Description" localize="Description" lenght="150" type="string" defaultvalue="" release="59" />
+        <Column name="Qty" localize="Qty" type="quantity" defaultvalue="0.000000000000000" release="59" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_Finiture" dynamic="true" mastertable="true">
+      <Create release="26" createstep="8" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="26" />
+        <Column name="Codice" localize="Codice" lenght="8" type="string" defaultvalue="" release="26" />
+        <Column name="Descrizione" localize="Descrizione" lenght="64" type="string" defaultvalue="" release="26" />
+        <Column name="Gruppo" localize="Gruppo" lenght="8" type="string" defaultvalue="" release="51" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_GruppiFiniture" dynamic="true" mastertable="true">
+      <Create release="51" createstep="9" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="51" />
+        <Column name="Codice" localize="Codice" lenght="8" type="string" defaultvalue="" release="51" />
+        <Column name="Descrizione" localize="Descrizione" lenght="50" type="string" defaultvalue="" release="51" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ItemsAddOn" dynamic="true" mastertable="true">
+      <Create release="2" createstep="10" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="2" />
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="2" />
+        <Column name="Apertura" localize="Apertura" lenght="12" type="string" defaultvalue="" release="2" />
+        <Column name="Note" localize="Note" lenght="50" type="string" defaultvalue="" release="2" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_Maggiorazioni" dynamic="true" mastertable="true">
+      <Create release="20" createstep="11" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="20" />
+        <Column name="Prodctg" localize="Prodctg" lenght="8" type="string" defaultvalue="" release="20" />
+        <Column name="ProdSubCtg" localize="ProdSubCtg" lenght="8" type="string" defaultvalue="" release="20" />
+        <Column name="Customer" localize="Customer" lenght="12" type="string" defaultvalue="" release="20" />
+        <Column name="DescriTabella" localize="DescriTabella" lenght="64" type="string" defaultvalue="" release="20" />
+        <Column name="Sconto1" localize="Sconto1" type="percent" defaultvalue="0.000000000000000" release="67" />
+        <Column name="Sconto2" localize="Sconto2" type="percent" defaultvalue="0.000000000000000" release="67" />
+        <Column name="Sconto3" localize="Sconto3" type="percent" defaultvalue="0.000000000000000" release="67" />
+        <Column name="Provvigione" localize="Provvigione" type="percent" defaultvalue="0.000000000000000" release="67" />
+        <Column name="ScontoMagg1" localize="ScontoMagg1" type="percent" defaultvalue="0.000000000000000" release="71" />
+        <Column name="ScontoMagg2" localize="ScontoMagg2" type="percent" defaultvalue="0.000000000000000" release="71" />
+        <Column name="ScontoMagg3" localize="ScontoMagg3" type="percent" defaultvalue="0.000000000000000" release="71" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_MaggiorazioniDetail" dynamic="true">
+      <Create release="21" createstep="12" />
+      <Columns>
+        <Column name="CtgProd" localize="CtgProd" lenght="8" type="string" defaultvalue="" release="21" />
+        <Column name="SubCtgProd" localize="SubCtgProd" lenght="8" type="string" defaultvalue="" release="21" />
+        <Column name="Customer" localize="Customer" lenght="12" type="string" defaultvalue="" release="21" />
+        <Column name="Riga" localize="Riga" type="integer" defaultvalue="0" release="21" />
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="21" />
+        <Column name="Descrizione" localize="Descrizione" lenght="64" type="string" defaultvalue="" release="21" />
+        <Column name="Importo" localize="Importo" type="money" defaultvalue="0.000000000000000" release="21" />
+        <Column name="TipoMaggiorazione" localize="TipoMaggiorazione" type="enum" basetype="15204" defaultvalue="996409344" release="22" />
+        <Column name="Dimensione" localize="Dimensione" type="enum" basetype="23553" defaultvalue="1543569408" release="23" />
+        <Column name="DaDim" localize="DaDim" type="double" defaultvalue="0.000000000000000" release="23" />
+        <Column name="ADim" localize="ADim" type="double" defaultvalue="0.000000000000000" release="23" />
+        <Column name="Apertura" localize="Apertura" lenght="12" type="string" defaultvalue="" release="23" />
+        <Column name="OltreStandard" localize="OltreStandard" type="double" defaultvalue="0.000000000000000" release="24" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ModelliConf" dynamic="true" mastertable="true">
+      <Create release="2" createstep="13" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="2" />
+        <Column name="Modello" localize="Modello" lenght="21" type="string" defaultvalue="" release="2" />
+        <Column name="DescriModello" localize="DescriModello" lenght="50" type="string" defaultvalue="" release="2" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_Params" dynamic="true" mastertable="true">
+      <Create release="5" createstep="14" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="5" />
+        <Column name="id" localize="id" type="integer" defaultvalue="0" release="5" />
+        <Column name="Server" localize="Server" lenght="150" type="string" defaultvalue="" release="5" />
+        <Column name="Installazione" localize="Installazione" lenght="50" type="string" defaultvalue="" release="5" />
+        <Column name="Porta" localize="Porta" type="integer" defaultvalue="0" release="5" />
+        <Column name="Company" localize="Company" lenght="50" type="string" defaultvalue="" release="5" />
+        <Column name="User" localize="User" lenght="50" type="string" defaultvalue="" release="5" />
+        <Column name="Password" localize="Password" lenght="50" type="string" defaultvalue="" release="5" />
+        <Column name="UtenteMago" localize="UtenteMago" lenght="50" type="string" defaultvalue="" release="6" />
+        <Column name="ProgConf" localize="ProgConf" type="long" defaultvalue="0" release="9" />
+        <Column name="CatMercPorte" localize="CatMercPorte" lenght="8" type="string" defaultvalue="" release="13" />
+        <Column name="CatMercTelai" localize="CatMercTelai" lenght="8" type="string" defaultvalue="" release="13" />
+        <Column name="CatMercImbotti" localize="CatMercImbotti" lenght="8" type="string" defaultvalue="" release="13" />
+        <Column name="CatMercPannelli" localize="CatMercPannelli" lenght="8" type="string" defaultvalue="" release="14" />
+        <Column name="CatMercAccessori" localize="CatMercAccessori" lenght="8" type="string" defaultvalue="" release="18" />
+        <Column name="CatMercPanneliLav" localize="CatMercPanneliLav" lenght="8" type="string" defaultvalue="" release="25" />
+        <Column name="OperazioneFuoriMisura" localize="OperazioneFuoriMisura" lenght="21" type="string" defaultvalue="" release="29" />
+        <Column name="OpFuoriMisuraPrimaDi" localize="OpFuoriMisuraPrimaDi" lenght="21" type="string" defaultvalue="" release="31" />
+        <Column name="OpFuoriMIsuraUltima" localize="OpFuoriMIsuraUltima" lenght="1" type="bool" defaultvalue="false" release="31" />
+        <Column name="OpFuorimisuraDopoDi" localize="OpFuorimisuraDopoDi" lenght="21" type="string" defaultvalue="" release="32" />
+        <Column name="CatMercTelaiLav" localize="CatMercTelaiLav" lenght="8" type="string" defaultvalue="" release="34" />
+        <Column name="CatMercCoprifiliLav" localize="CatMercCoprifiliLav" lenght="8" type="string" defaultvalue="" release="35" />
+        <Column name="CatMercCfAlettaLunga" localize="CatMercCfAlettaLunga" lenght="8" type="string" defaultvalue="" release="40" />
+        <Column name="CatMercFerramenta" localize="CatMercFerramenta" lenght="8" type="string" defaultvalue="" release="54" />
+        <Column name="CatMercVetri" localize="CatMercVetri" lenght="8" type="string" defaultvalue="" release="58" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_ParamsIn" dynamic="true">
+      <Create release="57" createstep="15" />
+      <Columns>
+        <Column name="idparam" localize="idparam" type="integer" defaultvalue="0" release="57" />
+        <Column name="CatProd" localize="CatProd" lenght="8" type="string" defaultvalue="" release="57" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_PolIntela" dynamic="true" mastertable="true">
+      <Create release="55" createstep="16" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="55" />
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="55" />
+        <Column name="HDa" localize="HDa" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="HA" localize="HA" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="LDa" localize="LDa" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="LA" localize="LA" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="FindH" localize="FindH" lenght="1" type="bool" defaultvalue="false" release="55" />
+        <Column name="FindL" localize="FindL" lenght="1" type="bool" defaultvalue="false" release="55" />
+        <Column name="RequiredQty" localize="RequiredQty" type="quantity" defaultvalue="0.000000000000000" release="55" />
+        <Column name="Quantita" localize="Quantita" type="quantity" defaultvalue="0.000000000000000" release="56" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_PolIntelaDetail" dynamic="true">
+      <Create release="55" createstep="17" />
+      <Columns>
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="55" />
+        <Column name="Distinta" localize="Distinta" lenght="21" type="string" defaultvalue="" release="55" />
+        <Column name="HDa" localize="HDa" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="HA" localize="HA" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="LDa" localize="LDa" type="double" defaultvalue="0.000000000000000" release="55" />
+        <Column name="LA" localize="LA" type="double" defaultvalue="0.000000000000000" release="55" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_PolTelai" dynamic="true" mastertable="true">
+      <Create release="38" createstep="18" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="38" />
+        <Column name="Codice" localize="Codice" lenght="21" type="string" defaultvalue="" release="38" />
+        <Column name="SpMuroDa" localize="SpMuroDa" type="double" defaultvalue="0.000000000000000" release="38" />
+        <Column name="SpMuroA" localize="SpMuroA" type="double" defaultvalue="0.000000000000000" release="38" />
+        <Column name="LTelaio" localize="LTelaio" type="double" defaultvalue="0.000000000000000" release="38" />
+        <Column name="TipoTelaio" localize="TipoTelaio" lenght="8" type="string" defaultvalue="" release="38" />
+        <Column name="Descrizione" localize="Descrizione" lenght="64" type="string" defaultvalue="" release="38" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_PolTelaioDetail" dynamic="true">
+      <Create release="39" createstep="19" />
+      <Columns>
+        <Column name="Codice" localize="Codice" lenght="21" type="string" defaultvalue="" release="39" />
+        <Column name="Riga" localize="Riga" type="integer" defaultvalue="0" release="39" />
+        <Column name="SpDa" localize="SpDa" type="double" defaultvalue="0.000000000000000" release="39" />
+        <Column name="SpA" localize="SpA" type="double" defaultvalue="0.000000000000000" release="39" />
+        <Column name="LCf" localize="LCf" type="double" defaultvalue="0.000000000000000" release="39" />
+        <Column name="QtaCf" localize="QtaCf" type="quantity" defaultvalue="0.000000000000000" release="39" />
+        <Column name="LCfAl" localize="LCfAl" type="double" defaultvalue="0.000000000000000" release="39" />
+        <Column name="QtaCfAl" localize="QtaCfAl" type="quantity" defaultvalue="0.000000000000000" release="39" />
+        <Column name="Imbotto" localize="Imbotto" lenght="1" type="bool" defaultvalue="false" release="39" />
+        <Column name="QtaImb" localize="QtaImb" type="quantity" defaultvalue="0.000000000000000" release="39" />
+        <Column name="LCf1" localize="LCf1" type="double" defaultvalue="0.000000000000000" release="48" />
+        <Column name="QyaCf1" localize="QyaCf1" type="quantity" defaultvalue="0.000000000000000" release="48" />
+        <Column name="LTelaio" localize="LTelaio" type="double" defaultvalue="0.000000000000000" release="53" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TabbellaVetriR" dynamic="true">
+      <Create release="62" createstep="20" />
+      <Columns>
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="62" />
+        <Column name="LET" localize="LET" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="HET" localize="HET" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="Qta" localize="Qta" type="quantity" defaultvalue="0.000000000000000" release="62" />
+        <Column name="LVT" localize="LVT" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="HVT" localize="HVT" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="SPVT" localize="SPVT" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="CategoriaVt" localize="CategoriaVt" lenght="8" type="string" defaultvalue="" release="62" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TabellaPannelliAp" dynamic="true">
+      <Create release="52" createstep="21" />
+      <Columns>
+        <Column name="Finitura" localize="Finitura" lenght="8" type="string" defaultvalue="" release="52" />
+        <Column name="Battuta" localize="Battuta" lenght="8" type="string" defaultvalue="" release="52" />
+        <Column name="Apertura" localize="Apertura" lenght="12" type="string" defaultvalue="" release="52" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TabellaPannelliR" dynamic="true">
+      <Create release="49" createstep="22" />
+      <Columns>
+        <Column name="Finitura" localize="Finitura" lenght="8" type="string" defaultvalue="" release="49" />
+        <Column name="Battuta" localize="Battuta" lenght="8" type="string" defaultvalue="" release="49" />
+        <Column name="DaCm" localize="DaCm" type="double" defaultvalue="0.000000000000000" release="49" />
+        <Column name="ACm" localize="ACm" type="double" defaultvalue="0.000000000000000" release="49" />
+        <Column name="CmInternoBattutaPannello" localize="CmInternoBattutaPannello" type="double" defaultvalue="0.000000000000000" release="49" />
+        <Column name="IsStandard" localize="IsStandard" lenght="1" type="bool" defaultvalue="false" release="49" />
+        <Column name="Dimensione" localize="Dimensione" type="enum" basetype="23553" defaultvalue="1543569408" release="50" />
+        <Column name="Operation1" localize="Operation1" lenght="21" type="string" defaultvalue="" release="50" />
+        <Column name="Operation2" localize="Operation2" lenght="21" type="string" defaultvalue="" release="50" />
+        <Column name="Operation3" localize="Operation3" lenght="21" type="string" defaultvalue="" release="50" />
+        <Column name="BattutaComponente" localize="BattutaComponente" lenght="8" type="string" defaultvalue="" release="52" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TabellaPannelliTesta" dynamic="true" mastertable="true">
+      <Create release="49" createstep="23" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="49" />
+        <Column name="Finitura" localize="Finitura" lenght="8" type="string" defaultvalue="" release="49" />
+        <Column name="Battuta" localize="Battuta" lenght="8" type="string" defaultvalue="" release="49" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TabellaVetri" dynamic="true" mastertable="true">
+      <Create release="61" createstep="24" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="61" />
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="61" />
+        <Column name="LEsternoTelaio" localize="LEsternoTelaio" type="double" defaultvalue="0.000000000000000" release="61" />
+        <Column name="HEsternoTelaio" localize="HEsternoTelaio" type="double" defaultvalue="0.000000000000000" release="61" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TabellaVetriR" dynamic="true">
+      <Create release="62" createstep="25" />
+      <Columns>
+        <Column name="Item" localize="Item" lenght="21" type="string" defaultvalue="" release="62" />
+        <Column name="LET" localize="LET" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="HET" localize="HET" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="Qty" localize="Qty" type="quantity" defaultvalue="0.000000000000000" release="62" />
+        <Column name="LVT" localize="LVT" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="HVT" localize="HVT" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="PVT" localize="PVT" type="double" defaultvalue="0.000000000000000" release="62" />
+        <Column name="CategoriaVt" localize="CategoriaVt" lenght="8" type="string" defaultvalue="" release="62" />
+        <Column name="Tipologia" localize="Tipologia" type="enum" basetype="23064" defaultvalue="1511522304" release="63" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TAG_DOORS_TipiTelaio" dynamic="true" mastertable="true">
+      <Create release="35" createstep="26" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="35" />
+        <Column name="Codice" localize="Codice" lenght="8" type="string" defaultvalue="" release="35" />
+        <Column name="Descrizione" localize="Descrizione" lenght="50" type="string" defaultvalue="" release="35" />
+      </Columns>
+    </Table>
+    <Table namespace="Doors.Doors.DynamicDocuments.TestaMiscele" dynamic="true" mastertable="true">
+      <Create release="4" createstep="27" />
+      <Columns>
+        <Column name="TBGuid" localize="TBGuid" type="uuid" defaultvalue="{00000000-0000-0000-0000-000000000000}" release="4" />
+        <Column name="Codice" localize="Codice" lenght="12" type="string" defaultvalue="" release="4" />
+        <Column name="Descrizione" localize="Descrizione" lenght="50" type="string" defaultvalue="" release="4" />
+      </Columns>
+    </Table>
+  </Tables>
+  <Views />
+</DatabaseObjects>

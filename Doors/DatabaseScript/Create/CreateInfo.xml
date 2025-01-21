@@ -1,0 +1,39 @@
+<CreateInfo>
+  <ModuleInfo name="Doors" />
+  <Level1>
+    <Step numstep="1" script="TAG_DOORS_Aperture.sql" />
+    <Step numstep="2" script="TAG_DOORS_Battute.sql" />
+    <Step numstep="3" script="TAG_DOORS_ConfigMagg.sql" />
+    <Step numstep="4" script="TAG_DOORS_Configurazioni.sql" />
+    <Step numstep="5" script="TAG_DOORS_ConfigurazioniDetail.sql" />
+    <Step numstep="6" script="TAG_DOORS_ConfigurazioniVar.sql" />
+    <Step numstep="7" script="TAG_DOORS_ConfigVetri.sql" />
+    <Step numstep="8" script="TAG_DOORS_Finiture.sql" />
+    <Step numstep="9" script="TAG_DOORS_GruppiFiniture.sql" />
+    <Step numstep="10" script="TAG_DOORS_ItemsAddOn.sql" />
+    <Step numstep="11" script="TAG_DOORS_Maggiorazioni.sql" />
+    <Step numstep="12" script="TAG_DOORS_MaggiorazioniDetail.sql" />
+    <Step numstep="13" script="TAG_DOORS_ModelliConf.sql" />
+    <Step numstep="14" script="TAG_DOORS_Params.sql" />
+    <Step numstep="15" script="TAG_DOORS_ParamsIn.sql" />
+    <Step numstep="16" script="TAG_DOORS_PolIntela.sql" />
+    <Step numstep="17" script="TAG_DOORS_PolIntelaDetail.sql" />
+    <Step numstep="18" script="TAG_DOORS_PolTelai.sql" />
+    <Step numstep="19" script="TAG_DOORS_PolTelaioDetail.sql" />
+    <Step numstep="20" script="TAG_DOORS_TabbellaVetriR.sql" />
+    <Step numstep="21" script="TAG_DOORS_TabellaPannelliAp.sql" />
+    <Step numstep="22" script="TAG_DOORS_TabellaPannelliR.sql" />
+    <Step numstep="23" script="TAG_DOORS_TabellaPannelliTesta.sql" />
+    <Step numstep="24" script="TAG_DOORS_TabellaVetri.sql" />
+    <Step numstep="25" script="TAG_DOORS_TabellaVetriR.sql" />
+    <Step numstep="26" script="TAG_DOORS_TipiTelaio.sql" />
+    <Step numstep="27" script="TestaMiscele.sql" />
+    <Step numstep="28" script="Alter_MA_Items.sql">
+      <Dependency app="ERP" module="Items" />
+    </Step>
+    <Step numstep="29" script="Alter_MA_SaleOrdDetails.sql">
+      <Dependency app="ERP" module="SaleOrders" />
+    </Step>
+  </Level1>
+  <Level2 />
+</CreateInfo>
